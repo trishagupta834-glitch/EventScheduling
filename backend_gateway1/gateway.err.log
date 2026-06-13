@@ -1,0 +1,3 @@
+INFO:     Will watch for changes in these directories: ['D:\\dsedbd\\groupProjectD\\backend_gateway1']
+INFO:     Uvicorn running on http://127.0.0.1:8083 (Press CTRL+C to quit)
+INFO:     Started reloader process [28592] using StatReload

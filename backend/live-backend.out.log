@@ -1,0 +1,40 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2026-06-12T19:50:10.374+05:30  INFO 29608 --- [project-backend] [           main] com.example.project.BackendApplication   : Starting BackendApplication v0.0.1-SNAPSHOT using Java 21.0.10 with PID 29608 (D:\dsedbd\groupProjectD\backend\target\project-backend-0.0.1-SNAPSHOT.jar started by trish in D:\dsedbd\groupProjectD\backend)
+2026-06-12T19:50:10.389+05:30  INFO 29608 --- [project-backend] [           main] com.example.project.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-06-12T19:50:10.391+05:30 DEBUG 29608 --- [project-backend] [           main] o.s.boot.SpringApplication               : Loading source class com.example.project.BackendApplication
+2026-06-12T19:50:10.520+05:30 DEBUG 29608 --- [project-backend] [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@27e47833
+2026-06-12T19:50:12.404+05:30  INFO 29608 --- [project-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-12T19:50:12.439+05:30 DEBUG 29608 --- [project-backend] [           main] o.s.b.a.AutoConfigurationPackages        : @EnableAutoConfiguration was declared on a class in the package 'com.example.project'. Automatic @Repository and @Entity scanning is enabled.
+2026-06-12T19:50:12.539+05:30  INFO 29608 --- [project-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 118 ms. Found 4 JPA repository interfaces.
+2026-06-12T19:50:13.943+05:30 DEBUG 29608 --- [project-backend] [           main] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: D:\dsedbd\groupProjectD\backend\target\project-backend-0.0.1-SNAPSHOT.jar
+2026-06-12T19:50:13.949+05:30 DEBUG 29608 --- [project-backend] [           main] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: D:\dsedbd\groupProjectD\backend\target\project-backend-0.0.1-SNAPSHOT.jar
+2026-06-12T19:50:13.966+05:30 DEBUG 29608 --- [project-backend] [           main] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2026-06-12T19:50:14.013+05:30  INFO 29608 --- [project-backend] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-12T19:50:14.055+05:30  INFO 29608 --- [project-backend] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-12T19:50:14.066+05:30  INFO 29608 --- [project-backend] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-06-12T19:50:14.196+05:30  INFO 29608 --- [project-backend] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-12T19:50:14.202+05:30 DEBUG 29608 --- [project-backend] [           main] w.s.c.ServletWebServerApplicationContext : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2026-06-12T19:50:14.205+05:30  INFO 29608 --- [project-backend] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3684 ms
+2026-06-12T19:50:14.451+05:30  INFO 29608 --- [project-backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-12T19:50:15.052+05:30  INFO 29608 --- [project-backend] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@10a18e3e
+2026-06-12T19:50:15.074+05:30  INFO 29608 --- [project-backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-12T19:50:15.414+05:30  INFO 29608 --- [project-backend] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-12T19:50:15.546+05:30  INFO 29608 --- [project-backend] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2026-06-12T19:50:15.661+05:30  INFO 29608 --- [project-backend] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-12T19:50:16.296+05:30  INFO 29608 --- [project-backend] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-12T19:50:18.281+05:30  INFO 29608 --- [project-backend] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-12T19:50:18.480+05:30  INFO 29608 --- [project-backend] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-12T19:50:19.193+05:30 DEBUG 29608 --- [project-backend] [           main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105, jwtFilter urls=[/*] order=2147483647
+2026-06-12T19:50:19.196+05:30 DEBUG 29608 --- [project-backend] [           main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2026-06-12T19:50:19.308+05:30 DEBUG 29608 --- [project-backend] [           main] o.s.b.w.s.f.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured for use
+2026-06-12T19:50:19.321+05:30 DEBUG 29608 --- [project-backend] [           main] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2026-06-12T19:50:19.322+05:30 DEBUG 29608 --- [project-backend] [           main] .DelegatingFilterProxyRegistrationBean$1 : Filter 'springSecurityFilterChain' configured for use
+2026-06-12T19:50:19.324+05:30 DEBUG 29608 --- [project-backend] [           main] o.s.b.w.s.f.OrderedFormContentFilter     : Filter 'formContentFilter' configured for use
